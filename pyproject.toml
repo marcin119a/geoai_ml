@@ -1,2 +1,19 @@
-numpy>=2.0
-pandas>=2.2
+[project]
+name = "szkolenie-gis"
+version = "0.1.0"
+description = "Szkolenie: segmentacja zdjęć z drona — metody klasyczne, SAM i U-Net"
+requires-python = ">=3.11"  
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+    "opencv-python-headless>=4.9",
+    "scikit-image>=0.26",  # notebook używa parametru max_size w remove_small_objects/holes
+    "scikit-learn>=1.5",
+    "rasterio>=1.4",
+    "affine>=2.4", 
+    "pyproj>=3.6", 
+    "geopandas>=1.0",
+    "shapely>=2.0",
+    "jupyterlab>=4.0",
+]
