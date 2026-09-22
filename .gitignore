@@ -64,7 +64,6 @@ htmlcov/
 data/raw/
 data/processed/
 datasets/
-models/
 checkpoints/
 outputs/
 mlruns/
@@ -74,7 +73,6 @@ wandb/
 *.joblib
 *.h5
 *.hdf5
-*.pt
 *.pth
 *.onnx
 
